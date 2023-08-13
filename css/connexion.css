@@ -1,0 +1,53 @@
+body{
+    background-color: #000075;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Designe du formulaire */
+.formulaire{
+    background-color: #fff;
+    width: 500px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 10px;   
+}
+.formulaire h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 2em;
+    color: #000075;
+    font-weight: bold;
+}
+.formulaire label{
+    font-size: 1.5em;
+    
+}
+.mdp{
+    margin: 20px 0px;
+}
+input{
+    width: 470px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+button{
+    width: 490px;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: #000075;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.lien{
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.lien a{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+

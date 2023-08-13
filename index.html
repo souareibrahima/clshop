@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clshop-Page d'Accueil</title>
+    <!-- liaison des fichiers bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Debut section entete de la Page -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background: #000075;">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="index.html">CLSHOP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="index.html">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                BOUTIQUE
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="shop.html">SHOP</a></li>
+                                <li><a class="dropdown-item" href="electronique.html">ELECTRONIQUE</a></li>
+                                <!-- <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="register.html">INSCRIPTION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="login.html">CONNEXION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">CONTACTS</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Chercher</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin section entete de la Page -->
+
+        <!-- Debut section Carroussel -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../images/caroussel/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/caroussel/banner1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/caroussel/banner2.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+        <!-- Fin section Carroussel -->
+        <!-- Debut section description -->
+        <div class="card p-1 mt-2" style="background: #000075;">
+            <div class="card-body bg-dark text-center">
+                <h3 class="text-white text-uppercase">Tout à commencer par une simple idée,
+                    créer des sites de qualité par moi même</h3>
+            </div>
+        </div>
+        <!-- Fin section description -->
+        <!-- Debut section type de produit -->
+        <div class="card-group">
+            <div class="card">
+                <img src="../images/tecn.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title text-center text-primary fw-bold">TELEPHONES</h4>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-outline-primary w-100">En Savoir Plus...</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../images/pc.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title text-center text-primary fw-bold">ORDINATEURS</h4>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-outline-primary w-100">En Savoir Plus...</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../images/iphone1.jpg" height="420" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title text-center text-primary fw-bold">TABLETTES</h4>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-outline-primary w-100">En Savoir Plus...</button>
+                </div>
+            </div>
+        </div>
+        <!-- Fin section type de produit -->
+
+        <!-- Debut section Liste de produit -->
+        <div class="card mt-3" style="background: #000075;">
+            <h3 class="text-center text-white fw-bold">Nos Produits Populaires</h3>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../images/techno.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h4 class="card-title fw-bold">Techno</h4>
+                        <p class="card-text">Prix : 1 500 000 GNF</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Acheter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../images/itel.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h4 class="card-title fw-bold">Itel</h4>
+                        <p class="card-text">Prix : 1 200 000 GNF</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Acheter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../images/iphones.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h4 class="card-title fw-bold">Iphone</h4>
+                        <p class="card-text">Prix : 2 000 000 GNF</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Acheter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../images/techno.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h4 class="card-title fw-bold">Techno</h4>
+                        <p class="card-text">Prix : 1 500 000 GNF</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Acheter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin section Liste de produit -->
+        <!-- Debut section des ordinateurs -->
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../images/pc.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h4 class="card-title fw-bold">Lenovo</h4>
+                        <p class="card-text">Prix : 2 500 000 GNF</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Acheter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../images/del.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h4 class="card-title fw-bold">Dell</h4>
+                        <p class="card-text">Prix : 2 500 000 GNF</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Acheter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../images/dell1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h4 class="card-title fw-bold">Dell</h4>
+                        <p class="card-text">Prix : 6 000 000 GNF</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Acheter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../images/hp1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h4 class="card-title fw-bold">Hp</h4>
+                        <p class="card-text">Prix : 4 500 000 GNF</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Acheter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin section des ordinateurs -->
+
+        <!-- Debut section temoignage client -->
+        <div class="mt-2 bg-dark">
+            <h3 class="text-center text-white fw-bold"> Temognages de Nos Clients</h3>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../images/user3.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">Hawa Camara</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../images/user4.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">John Doe</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Fin section temoignage client  -->
+
+        <!-- Debut section pied de page -->
+        <div class="mt-2 bg-dark">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Accueil</a></li>
+                    <li class="nav-item"><a href="electronique.html" class="nav-link px-2 text-white">Electronique</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link px-2 text-white">Blog</a></li>
+                    <li class="nav-item"><a href="shop.html" class="nav-link px-2 text-white">Shop</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-white">Contact</a></li>
+                </ul>
+                <p class="text-center text-white">&copy; 2023 Clshop, Tous droits reservés</p>
+            </footer>
+        </div>
+        <!-- Fin section pied de page -->
+
+    </div>
+
+</body>
+
+</html>
